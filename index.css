@@ -1,0 +1,69 @@
+
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+/* IMPORT FONTS */
+
+/* GENERAL COLORS */
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+  }
+  /* GENNERAL COLORS */
+
+  /* GENERAL SETTINGS */
+  *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* GENERAL SETTINGS */
+
+body{
+    
+    background-image:  linear-gradient(117.35deg, rgba(7, 16, 234, 0.6) 48.57%, rgba(48, 53, 170, 0.36) 98.15%),url(images/survey-form-background.jpeg);
+    /* filter: blur(4px); */
+    background-size: cover;
+    
+} 
+header{
+    text-align: center;
+    color:var(--color-white);
+    
+}
+/* Header edit */
+header h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+/* identical to box height */
+    text-align: center;
+}
+
+
+header h2{
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+/* identical to box height */
+    letter-spacing: 0.04em;
+
+
+}
+/* Header edit */
+
+
+/* MAin box */
+
+
+
+
+
+    
+
+
