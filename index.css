@@ -27,12 +27,14 @@ body{
     background-size: cover;
     
 } 
+
+/* Header edit */
 header{
     text-align: center;
     color:var(--color-white);
     
 }
-/* Header edit */
+
 header h1{
     font-family: Poppins;
     font-style: normal;
