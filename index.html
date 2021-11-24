@@ -21,7 +21,43 @@
 
 
     <main>
-   
+        <form class="form">
+            <!-- Question 1 -->
+
+            <div class="mb-3 mt-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Enter your name" name="name">
+            </div>
+
+            <!-- Question 2 -->
+            <div class="mb-3 mt-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your e-mail" name="email">
+            </div>
+
+            <!-- Question 3 -->
+
+            <div class="mb-3 mt-3">
+                <label for="age" class="form-label">Age</label>
+                <input type="age" class="form-control" id="age" placeholder="Age" name="age">
+            </div>
+
+            <!-- Question 4 -->
+
+            <div class="dropdown dropdown-menu-end">
+                <label for="name" class="form-label">Wich option best describes your current role?</label>
+                <select id="dropdown" name="role" class="form-control" placeholder="Select your current role" required>
+                    <option value="role">Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="preferNo">Prefer not to say</option>
+                    <option value="other">Other</option>
+                  </select>
+              </div>
+
+            <!--  -->
+        </form>
     </main>
 </body>
 </html>

@@ -62,6 +62,36 @@ header h2{
 
 /* MAin box */
 
+main{
+
+    max-width: 1200px;
+    margin:0 auto;
+    background: rgba(27, 27, 50, 0.8);
+    border-radius: 4px;
+}
+
+/* General edits to form */
+.form{
+    margin: 20px 20px;
+    padding:15px;
+}
+
+
+/* form labels edits */
+.form-label {
+    color: var(--color-white);
+    font-size: 16px;
+    font-family: Poppins,sans-serif;
+
+}
+
+
+/* Question 4 drop-doown botton  */
+#dropdown
+{
+    color: #8e8e8e;
+
+}
 
 
 
