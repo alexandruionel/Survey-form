@@ -110,7 +110,7 @@ main{
     border: none;
 
 }
-
+/* Submit button */
 #submit{
     background-color: var(--color-green);
     border: none;
