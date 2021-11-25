@@ -56,8 +56,76 @@
                   </select>
               </div>
 
-            <!--  -->
+            <!-- Question 5  -->
+            <div class="mb-3 mt-3">
+                <label for="name" class="form-label">Would you recommend to a friend?</label>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Definately<br>
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Maybe<br>
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Not sure
+                </div>
+                
+
+            </div>
+
+            <!-- Question 6 -->
+            <div class="dropdown dropdown-menu-end">
+                <label  class="form-label">What is your favourite feature of?</label>
+                <select id="dropdown" name="role" class="form-control" placeholder="Select your current role" required>
+                    <option value="role">Please select</option>
+                    <option value="student">Dummy1</option>
+                    <option value="job">Dummy2</option>
+                    <option value="learner">Dummy3</option>
+                    <option value="preferNo">Dummy4</option>
+                    <option value="other">Dummy5</option>
+                  </select>
+              </div>
+
+              <!-- Quetsion 7 -->
+            <div class="mb-3 mt-3">
+                <label class="form-label">What would you like to improve?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
+                    <label class="form-check-label">Front-end</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="check1" name="option2" value="something">
+                    <label class="form-check-label">Back-end</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="check1" name="option3" value="something">
+                    <label class="form-check-label">Dev-ops</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="check1" name="option4" value="something">                    
+                    <label class="form-check-label other">Other: </label>
+                    <input type="text" class="q7comm" placeholder="Please specify">                        
+                    
+                  </div>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="mb-3 mt-3">
+                <label class="form-label">What would you like to improve?</label>
+                <textarea class="comment form-control" placeholder="Comment here..."></textarea>
+
+            </div>
+
+            <!-- submit button -->
+            <div class="mb-3 mt-3">
+
+                <input type="button" id="submit" class="form-control subbtn"name="submit" value="Submit">
+
+            </div>
+
         </form>
     </main>
+
+    <footer>
+        <p>
+            Created by Alex Ionel
+        </p>
+    </footer>
 </body>
 </html>
